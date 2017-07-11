@@ -8,4 +8,4 @@ cd ..
 
 stringtie ${EXP1}.sorted.bam -eB -o ./merge${EXP1}/${EXP1}.compared.gtf -p $core -G merged.gtf
 
-cd ./HISAT
+cd ./StringTie
