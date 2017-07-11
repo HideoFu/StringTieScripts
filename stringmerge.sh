@@ -10,4 +10,4 @@ cd ..
 
 stringtie --merge -p $core -G $REF -o merged.gtf $list
 
-cd ./HISAT
+cd ./StringTie
