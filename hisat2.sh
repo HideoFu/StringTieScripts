@@ -6,10 +6,10 @@
 
 core=$EXPcore    #number of threads. exported from 'main.sh' and so on.
 
-cd ../Trimmed
+cd ../Trimmed  # ~/Trimmed
 
 hisat2 -p $core -q --dta -x genome -U ${EXP1}_1_trimmed.fq -S ${EXP1}.sam
 
-mv ${EXP1}.sam ..
+mv ${EXP1}.sam ..  # ~/
 
-cd ../HISAT
+cd ../StringTie
