@@ -9,4 +9,4 @@ cd ..
 
 stringtie ${EXP1}.sorted.bam -p $core -G $REF -o ${EXP1}.gtf 
 
-cd ./HISAT
+cd ./StringTie
